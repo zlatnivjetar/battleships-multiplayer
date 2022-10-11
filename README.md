@@ -1,4 +1,6 @@
 # Battleships Multiplayer
+Javascript, Node.js, Express.js, Socket.io
+
 Currently work in progress.
 
 At this point, tackling the game logic is challenging to me, but of course, I do not give up.
