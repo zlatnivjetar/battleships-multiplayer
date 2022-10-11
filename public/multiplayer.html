@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="title" content="Battleships">
+  <meta name="author" content="David Marinovic">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="socket.io/socket.io.js" defer></script> <!-- Socket.io script tag goes BEFORE main.js tag -->
+  <script src="main.js" defer></script>
+  <title>Battleships</title>
+</head>
+
+<body>
+  <div class="game">
+    <div class="board-container">
+      <h1>Single Player</h1>
+      <div class="board-space">
+        <div class="board player-board"></div>
+        <div class="board enemy-board"></div>
+      </div>
+    </div>
+    <button class="start" id="multi">Start Game!</button>
+    <div class="ship-container">
+      <div class="ship-grid">
+        <button id="remove"></button>
+        <div class="ship patrol-ship" draggable="true"></div>
+        <div class="ship submarine-ship" draggable="true"></div>
+        <div class="ship destroyer-ship" draggable="true"></div>
+        <div class="ship battleship-ship" draggable="true"></div>
+        <div class="ship carrier-ship" draggable="true"></div>
+        <button id="rotate"></button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
