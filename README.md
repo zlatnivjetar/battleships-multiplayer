@@ -1,4 +1,4 @@
-# Battleships Multiplayer
+# Battleships Multiplayer - UNFINISHED
 Javascript, Node.js, Express.js, Socket.io
 
 Currently work in progress.
